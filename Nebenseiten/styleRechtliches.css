@@ -1,0 +1,77 @@
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* Breite der Scrollbar */
+}
+
+/* Hintergrund der Scrollbar */
+::-webkit-scrollbar-track {
+    background: #b089f2;
+    border-radius: 10px;
+}
+
+/* Scroll-Leiste */
+::-webkit-scrollbar-thumb {
+    background: white;
+    /* Farbe der Scroll-Leiste */
+    border-radius: 10px;
+}
+
+/* Scroll-Leiste beim Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #5afff5;
+    /* Farbe der Scroll-Leiste beim Hover */
+}
+
+.title {
+    text-align: center;
+    /* Text innerhalb des div zentrieren */
+    font-size: 1.5em;
+    font-family: "Lato", sans-serif;
+    /Schriftart/
+    letter-spacing: 0.12em;
+    font-weight: 1500;
+    color: white;
+    -webkit-text-stroke: 1.7px white;
+    margin-top: 1vh;
+}
+
+/* Container für den Inhalt */
+.content-container {
+    max-width: 800px;
+    margin: 50px auto; /* Zentriert den Inhalt horizontal und gibt Platz nach oben */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Überschrift */
+.content-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4a0072; /* Passend zum Stil */
+}
+
+/* Unterüberschriften */
+.content-container h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #4a0072;
+}
+
+/* Text */
+.content-container p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Links */
+.content-container a {
+    color: #4a0072;
+    text-decoration: underline;
+}
