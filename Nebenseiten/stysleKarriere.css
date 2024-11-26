@@ -1,0 +1,95 @@
+/* Container für die gesamte Seite */
+.karriere-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    background-color: #200033; /* Hintergrundfarbe */
+    border: 2px solid #6f00b0; /* Lila Rahmen */
+    border-radius: 10px;
+}
+
+/* Überschrift */
+.karriere-header h1 {
+    text-align: center;
+    color: #9cf1f1;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Flexbox-Container für Inhalte */
+.karriere-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Textbox für Stelleninfo */
+.text-box {
+    flex: 1 1 60%;
+    background-color: #2a003d; /* Lila, um sich vom Hintergrund abzuheben */
+    border-radius: 10px;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-box h2 {
+    color: #9cf1f1;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Kontaktbereich */
+.contact-box {
+    flex: 1 1 35%;
+    text-align: center;
+    background-color: #2a003d;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-box img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #6f00b0;
+}
+
+.contact-box h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.contact-box p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.contact-box a {
+    color: #9cf1f1;
+    text-decoration: none;
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Ansicht */
+@media screen and (max-width: 768px) {
+    .karriere-content {
+        flex-direction: column;
+    }
+
+    .text-box, .contact-box {
+        flex: 1 1 100%;
+    }
+}
