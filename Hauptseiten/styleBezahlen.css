@@ -82,13 +82,13 @@ body{
 
 
 
-.PersÃ¶-container {
+.Persö-container {
   display: flex;
   flex-direction: column; /* Stellt sicher, dass alle Elemente untereinander angeordnet sind */
   width: 300px; /* Breite des Containers anpassen */
   margin: 20px; /* AuÃŸenabstand */
   position: fixed;
-  top: 150pt;
+  top: 200pt; /*150pt;*/
   right: 30vw;
   width: 40vw;
   height: 400px;
