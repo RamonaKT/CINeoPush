@@ -21,12 +21,13 @@ body{
   margin-right: 5vw;
   height: 45vh;
 }
-.Ãœberschrift {
+.Überschrift {
   position: fixed;
   top: 15pt;
   left: 33vw;
   display: block;
   background-color: #220537;
+  color: white;
   width: 600px;
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
@@ -44,6 +45,7 @@ body{
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 52px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 
 .Ticketanzahl-container {
@@ -58,6 +60,7 @@ body{
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 
 .Platzreservierung-container {
@@ -73,6 +76,7 @@ body{
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
   transition: background-color 0.3s, transform 0.3s; /* Sanfter Ãœbergang fÃ¼r Hintergrundfarbe und Skalierung */
+  font-size: 3vh;
 }
 
 .Platzreservierung-container:hover {
@@ -92,6 +96,7 @@ body{
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 .Gutscheincode-container {
   position: fixed;
@@ -179,6 +184,7 @@ input:hover {
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 /*
 .ticket h2 {
@@ -206,6 +212,7 @@ input:hover {
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
   transition: background-color 0.3s, transform 0.3s; /* Sanfter Ãœbergang fÃ¼r Hintergrundfarbe und Skalierung */
+  font-size: 3vh;
 }
 
 .Bezahlvorgang-container:hover {
@@ -224,6 +231,7 @@ input:hover {
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 52px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 
 .Tiinfo-container {
@@ -379,17 +387,19 @@ button {
 
 .ticket h2{
   margin: 0;/*EntferntdenStandard-Margin*/
+  font-size: 3vh;
 }
 
 /*AbstandzwischenTicketnameundPreis*/
 .ticket h2:first-child{
   margin-right: 8vw; /*160pt;/*VerringertdenhorizontalenAbstandzwischenTicketnameundPreis*/
+  font-size: 3vh;
 }
 
 .ticket-selection{
   margin: 2vw; /*20px; */
-  position:relative;/*absolute;/*fixed;/*SetztdiePositionrelativ*/
-  bottom:5vh;/*42vh;/*33vh;/*2vh;/*5pt;*/
+  position:fixed;/*relative;/*absolute;/*fixed;/*SetztdiePositionrelativ*/
+  bottom: 30vh; /*5vh;/*42vh;/*33vh;/*2vh;/*5pt;*/
   right:48vw;/*40vw;/*920px;/*1125px;/*VerschiebtdengesamtenBlockum50pxnachrechts*/
   color:#cccccc;
 }
