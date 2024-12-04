@@ -84,6 +84,13 @@ body{
   transform: scale(1.05); /* Leichte VergrÃ¶ÃŸerung beim Hover */
 }
 
+
+/* Entfernt Unterstreichungen und sorgt für einheitliche Textfarbe im Link */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .Gesamtpreis-container {
   position: fixed;
   /*top: 450pt;

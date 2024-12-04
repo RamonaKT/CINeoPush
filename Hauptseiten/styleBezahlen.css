@@ -257,8 +257,6 @@ input:hover {
 
 .Bestätigen-container {
   position: fixed;
-  /*top: 550pt;
-  /* left: 1125pt;  */
   top: 80vh;
   right: 25pt;
   display: block;
@@ -266,15 +264,22 @@ input:hover {
   width: 400px;
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
-  line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
-  transition: background-color 0.3s, transform 0.3s; /* Sanfter Ãœbergang fÃ¼r Hintergrundfarbe und Skalierung */
+  line-height: 50px; /* Setzt die Zeilenhöhe gleich der Höhe der Box für vertikale Zentrierung */
+  transition: background-color 0.3s, transform 0.3s; /* Sanfter Übergang für Hintergrundfarbe und Skalierung */
   font-size: 3vh;
 }
 
 .Bestätigen-container:hover {
   background-color: #4ac3d3; /* Hintergrundfarbe beim Hover */
-  transform: scale(1.05); /* Leichte VergrÃ¶ÃŸerung beim Hover */
+  transform: scale(1.05); /* Leichte Vergrößerung beim Hover */
 }
+
+/* Entfernt Unterstreichungen und sorgt für einheitliche Textfarbe im Link */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 /*
 .Bezahlvorgang-container {
