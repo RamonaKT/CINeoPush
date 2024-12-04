@@ -40,13 +40,23 @@
 
 /* Container für den Inhalt */
 .content-container {
-    max-width: 800px;
     margin: 50px auto; /* Zentriert den Inhalt horizontal und gibt Platz nach oben */
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     color: #333;
+    position: relative;
+    z-index: 5;
+
+}
+.content-container1 {
+    max-width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 15vh;
+    right: 25%;
 }
 
 /* Überschrift */
