@@ -46,7 +46,7 @@ body{
   line-height: 52px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
 }
 
-.PersÃ¶nlicheDaten-container {
+.PersönlicheDaten-container {
   position: fixed;
   top: 110pt;
   /*left: 390pt;*/
@@ -247,7 +247,7 @@ input:hover {
   margin-right: 50px;/*250px; /* Abstand zwischen Ticketbezeichnung und Preis */
 }
 
-.BestÃ¤tigen-container {
+.Bestätigen-container {
   position: fixed;
   /*top: 550pt;
   /* left: 1125pt;  */
@@ -262,7 +262,7 @@ input:hover {
   transition: background-color 0.3s, transform 0.3s; /* Sanfter Ãœbergang fÃ¼r Hintergrundfarbe und Skalierung */
 }
 
-.BestÃ¤tigen-container:hover {
+.Bestätigen-container:hover {
   background-color: #4ac3d3; /* Hintergrundfarbe beim Hover */
   transform: scale(1.05); /* Leichte VergrÃ¶ÃŸerung beim Hover */
 }
