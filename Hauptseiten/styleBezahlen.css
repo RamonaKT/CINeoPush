@@ -45,6 +45,7 @@ body{
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 52px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 
 .PersönlicheDaten-container {
@@ -59,6 +60,7 @@ body{
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 
 .ticketanzahl-container {
@@ -73,6 +75,7 @@ body{
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 
 
@@ -89,11 +92,11 @@ body{
   width: 300px; /* Breite des Containers anpassen */
   margin: 20px; /* AuÃŸenabstand */
   position: fixed;
-  top: 200pt; /*150pt;*/
+  top: 25vh; /*200pt; /*150pt;*/
   right: 30vw;
   width: 40vw;
   height: 400px;
-
+  font-size: 3vh;
 }
 
 .name-container {
@@ -157,6 +160,7 @@ input[type="text"] {
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 
 .Gesamtpreis-container {
@@ -171,6 +175,7 @@ input[type="text"] {
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 .Gutscheincode-container {
   position: fixed;
@@ -184,6 +189,7 @@ input[type="text"] {
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 
 
@@ -236,6 +242,7 @@ input:hover {
   height: 50px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 
 .ticket h2 {
@@ -261,6 +268,7 @@ input:hover {
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 50px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
   transition: background-color 0.3s, transform 0.3s; /* Sanfter Ãœbergang fÃ¼r Hintergrundfarbe und Skalierung */
+  font-size: 3vh;
 }
 
 .Bestätigen-container:hover {
@@ -310,6 +318,7 @@ input:hover {
   height: 400px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 500px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 
 .Tianz-container {
@@ -325,6 +334,7 @@ input:hover {
   height: 500px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 500px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 
 .Plainfo-container {
@@ -338,6 +348,7 @@ input:hover {
   height: 625px;
   text-align: center; /* Zentriert den Text horizontal */
   line-height: 625px; /* Setzt die ZeilenhÃ¶he gleich der HÃ¶he der Box fÃ¼r vertikale Zentrierung */
+  font-size: 3vh;
 }
 
 
