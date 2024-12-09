@@ -1,0 +1,31 @@
+name: Node.js CI
+
+# Der Workflow wird bei einem Push auf den main-Branch ausgelöst
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    # Die virtuelle Maschine, auf der der Workflow läuft
+    runs-on: ubuntu-latest
+
+    steps:
+      # Schritt 1: Repository auschecken
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      # Schritt 2: Node.js-Version einrichten
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      # Schritt 3: Abhängigkeiten installieren
+      - name: Install Dependencies
+        run: npm install
+
+      # Schritt 4: Tests ausführen
+      - name: Run Tests
+        run: npm test
