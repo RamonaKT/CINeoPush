@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-ci-example",
+  "version": "1.0.0",
+  "description": "Ein Beispielprojekt für Node.js mit GitHub Actions",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
