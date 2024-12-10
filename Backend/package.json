@@ -4,7 +4,7 @@
   "description": "Ein Beispielprojekt für Node.js mit GitHub Actions",
   "main": "app.js",
   "scripts": {
-    "test": "mocha Backend/test.js"
+    "test": "mocha test.js"
   },
   "devDependencies": {
     "mocha": "^10.2.0"
