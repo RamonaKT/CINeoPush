@@ -16,6 +16,10 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
+  - name: Change Directory
+    run: cd Backend
+
+
       # Schritt 2: Node.js-Version einrichten
       - name: Set up Node.js
         uses: actions/setup-node@v3
